@@ -1,8 +1,8 @@
 export default {
-    providers: [
-        {
-            domain: "https://tender-skunk-0.clerk.accounts.dev",
-            applicationID: "convex",
-        },
-    ]
+  providers: [
+    {
+      domain: process.env.CONVEX_ISSUER,
+      applicationID: 'convex',
+    },
+  ],
 };

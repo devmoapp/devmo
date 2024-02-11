@@ -27,3 +27,11 @@ npm run dev
 ===============================================
 - More advanced options (later implementation) with feature boards, real time messaging if on a team, and dead line goals per feature
 ```
+
+
+## How to set up env.local
+- Run `npx convex dev` select new project or if you already created a devmo project on convex.dev select that
+- It will add the convex connection variables for you
+- Next access clerk, create a new application. 
+  - Fields needed: email, google, github
+- Copy the fields into your .env.local
