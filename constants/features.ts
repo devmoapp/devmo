@@ -1,22 +1,22 @@
-import { Lock, RefreshCcw, Fingerprint } from 'lucide-react';
+import { BarChart3Icon, BarChart4, KanbanSquare, Users } from 'lucide-react';
 
 export const features = [
   {
-    name: 'SSL certificates',
+    name: 'Feature Management',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: Lock,
+      ' Break down projects into features and track progress for each feature..',
+    icon: KanbanSquare,
   },
   {
-    name: 'Simple queues',
+    name: 'Collaborative Environment',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-    icon: RefreshCcw,
+      'Collaborate with 1 to 2 members per project for efficient teamwork.',
+    icon: Users,
   },
   {
-    name: 'Advanced security',
+    name: 'Progress Visualization',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-    icon: Fingerprint,
+      'Set and achieve daily goals with motivational feedback to keep the momentum going',
+    icon: BarChart4,
   },
 ];

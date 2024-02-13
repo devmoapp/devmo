@@ -19,7 +19,7 @@ export const Logo = () => {
           height={30}
           width={30}
         />
-        <p className={cn('font-bold text-2xl text-white pb-1', font.className)}>Devmo</p>
+        <p className={cn('font-bold text-2xl text-neutral-700 pb-1', font.className)}>Devmo</p>
       </div>
     </Link>
   );
