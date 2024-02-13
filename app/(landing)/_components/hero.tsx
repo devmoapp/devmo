@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { SignUp, SignUpButton } from '@clerk/nextjs';
+
 import Image from 'next/image';
 
 export const Hero = () => {
@@ -16,10 +16,9 @@ export const Hero = () => {
         </p>
         <div className='flex w-full justify-center'>
           <Button size='lg'>
-            <SignUpButton
-              mode='modal'>
-              Sign Up for free!
-            </SignUpButton>
+
+            Sign Up for free!
+
           </Button>
         </div>
       </div>
